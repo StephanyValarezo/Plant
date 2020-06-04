@@ -1,13 +1,13 @@
 <html>
     <body>
-        
+
         <h1>Prueba 1</h1>
 
         <p>Esta es una pagina de prueba</p>
         <p>Aqui se puede cambiar el estado de una variable y es enviada a una base de datos.</p>
         <h1>{{articulos2.nombre}}</h1>
         <form action="" method="POST">{% csrf_token %}
-            
+
             <table>
 
                 {{form.as_table}}
@@ -16,7 +16,10 @@
             </table>
 
             <input type="submit" value="Enviar">
-            
+            <button onClick=location.href='./?LED=OFF'>LED OFF</button>
+            <p>hola sabado</p>
+
+
 
 
         </form>
