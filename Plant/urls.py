@@ -19,6 +19,6 @@ from PlantApp import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    #path('', views.botones),
+    path('', views.botones),
     path('', include('api_basic.urls')),
 ]
