@@ -7,6 +7,7 @@ class Article(models.Model):
     author = models.CharField(max_length=100)
     email = models.EmailField(max_length=100)
     date = models.DateTimeField(auto_now_add=True)
+    estado=models.BooleanField(default=False)
 
     def __str__(self):
         return self.title
